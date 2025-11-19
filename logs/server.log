@@ -1,0 +1,21 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [148] using StatReload
+INFO:     Started server process [150]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:48974 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:48984 - "GET /api/receipts?month=2025-11 HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:48996 - "GET /api/summary?month=2025-11 HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:49004 - "GET /api/advances?month=2025-11 HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:49012 - "GET /api/summary?month=2025-11 HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:48996 - "GET /api/advances?month=2025-11 HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:49004 - "GET /api/receipts?month=2025-11 HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:49018 - "GET /api/summary?month=2025-11 HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:49022 - "GET /api/receipts?month=2025-11 HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:49018 - "GET /api/advances?month=2025-11 HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:49022 - "GET /api/summary?month=2025-11 HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:49018 - "GET /api/receipts?month=2025-11 HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:50258 - "GET /api/advances?month=2025-11 HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:50260 - "OPTIONS /api/export.csv?month=2025-11 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50260 - "GET /api/export.csv?month=2025-11 HTTP/1.1" 500 Internal Server Error
